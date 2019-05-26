@@ -300,7 +300,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
     
 # OTA
-PRODUCT_PACKAGES += /
+PRODUCT_PACKAGES += \
     Updates
     
 # Overlay
