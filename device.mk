@@ -298,7 +298,11 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libOmxVidcCommon \
     libstagefrighthw
-
+    
+# OTA
+PRODUCT_PACKAGES += /
+    Updates
+    
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
