@@ -23,15 +23,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/motorola/sanders/device.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/legion/config/common.mk)
 
 # Boot animation
-TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 1920
+TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := arrow_sanders
+PRODUCT_NAME := legion_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -48,4 +47,8 @@ $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
 BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys 
 VENDOR_BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys
 
-ARROW_BUILD_TYPE := EdiçãoBR
+LEGION_BUILD_TYPE := OFFICIAL
+
+CPU_MODEL := Snapdragon_625
+
+LEGION_MAINTAINER := Pintos
