@@ -31,13 +31,12 @@ TARGET_BOOT_ANIMATION_RES := 1080
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
 PRODUCT_NAME := legion_sanders
-PRODUCT_BRAND := motorola
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_BRAND := Motorola
+PRODUCT_MANUFACTURER := Motorola
+PRODUCT_MODEL := Moto G5S Plus
 
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Moto G5S Plus" \
     PRIVATE_BUILD_DESC="sanders-user 8.1.0 OPS28.65-36 9fea release-keys"
 
 # for specific
